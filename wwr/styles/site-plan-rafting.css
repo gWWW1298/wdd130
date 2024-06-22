@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap');
+body{
+    font-family: var(--#272222);
+    max-width: 960;
+    padding: 20;
+
+}
+:root{
+    --primary-color: #817E9F
+    --secondary-color: #7FC29B
+    --accent1-color: #65524D
+    --accent2-color: #B5EF8A
+
+    --heading-font: 'Georgia', serif;
+    --paragraph-font:'Gill Sans', serif;
+
+    --nav-background-color: #f0f0f0;
+    --nav-link-color: grey;
+    --nav-hover-link-color:rgb(150,230, 130);
+    --nav-hover-background-color: rgb(200, 100, 250);
+    
+}
+body{
+    font-family:var(#272222);
+    max-width: 900;
+    padding: 15;
+
+}
+h1, h2, H3, h4, h5,h6 {
+    font-family: var(--Times New Roman);
+    color: var(#817E9F);
+
+}
+header{
+    padding: 20px;
+    background-color: var(#65524D);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(#f0f0f0);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(grey);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color: var(grey);
+}
+nav a:hover{
+    color: var(rgb(150,230, 130));
+    background-color: var(rgb(200, 100, 250));
+
+};
