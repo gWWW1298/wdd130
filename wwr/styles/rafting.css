@@ -45,24 +45,43 @@ body{
 }
 .hero{
     position: relative;
+    text-align: center;
+    color: #f0f0f0;
 
 }
 .hero img{
     display: block;
-    width: 500px;
+    width: 100%;
     height: auto;
 }
 h1,
 article{
     position: absolute;
+ 
+}
+h1{
+    top: 10%;
+    left: 20%;
+    bottom: 20%;
+    right: 20%;
+    color: #f0f0f0;
 }
 article{
-    background-color: rgba(88, 100, 90, .5);
-
+    background-color: rgba(88, 92, 89, 0.5);
+    color: #fc0d0d;
+    top: 35%;
+    left: 20%;
+    bottom: 35%;
+    right: 20%;
+    max-width: 1000px;
+    text-align: left;
 }
 article img{
     float: right;
     
+}
+.happy img{
+    width: 55%;
 }
 footer{
     background-color: greenyellow;
