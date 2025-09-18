@@ -82,7 +82,7 @@ article{
     font-size: 1.2rem;
 }
 
-.hero article img{
+article img{
     float: right;
     width: 160px;
     margin: 0 0 0 15px;
