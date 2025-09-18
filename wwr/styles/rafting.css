@@ -74,10 +74,12 @@ h1{
 }
 
 article{
-    top: auto;
-    bottom: 0;
-    color: var(--text-color);
+    top: 14%;
+    bottom: auto;
+    color: var(--text-light);
     background-color: var(--color-secondary);
+    opacity: .8;
+    font-size: 1.2rem;
 }
 
 .hero article img{
