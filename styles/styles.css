@@ -9,15 +9,23 @@
 }
 nav{
     background-color: var(--color);
-    padding: 10px
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
 }
 h1{
     color: var(--color);
+    border-bottom: 1px solid #abc;
+    margin-bottom: 20px;
 }
 main img{
     float: right;
@@ -27,15 +35,27 @@ main img{
     padding: 2px;
     box-shadow:0 0 30px gray;
 }
-main{
-    max-width: 900px;
+.grid, header, footer{
+    max-width: 840px;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+    gap: 1rem;
 }
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 aside{
     position: relative;
-    width: 20%;
+    width: 100%;
     margin: 10px 20px 0;
     padding: 10px;
     text-align: var(--text-align);
+    grid-column: 1/2;
+    grid-row: 1/2;
+
 }
 aside h2{
     position: absolute;
@@ -63,3 +83,5 @@ footer{
     background-color: #abe;
     color: #000;
 }
+
+
