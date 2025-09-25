@@ -25,8 +25,6 @@ header, main, footer{
     margin: 0 auto;
 }
 
-
-
 .container1{
     display: grid;
     grid-template-columns: .5fr 1fr;    
@@ -147,14 +145,20 @@ footer{
     font-family:'Times New Roman', Times, serif;
     border-top: 1px solid var(--color-primary) ;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr .2fr;
+    /* grid-row: 1fr; */
+    /* justify-content: center; */
 }
 
 footer .socialmedia{
     display: flex;
     justify-content: space-evenly;
     align-self: center;
+
+}
+footer .socialmedia img{
+    width: 30px;
+    height: auto;
 }
 footer p{
     align-self: center;
