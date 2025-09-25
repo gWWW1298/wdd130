@@ -29,9 +29,7 @@ header, main, footer{
 
 .container1{
     display: grid;
-    grid-template-columns: .5fr 1fr;
-    grid-row: 1fr;
-    
+    grid-template-columns: .5fr 1fr;    
 }
 .container1 img{
     width: 20%;
