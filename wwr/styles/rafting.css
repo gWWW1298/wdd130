@@ -110,6 +110,10 @@ s
 .hero h1, .hero article{
     position: absolute;
 }
+.hero p{
+    font-size: 17px;
+    color: #000;
+}
 h1{
     top: 10px;
     width: 100%;
