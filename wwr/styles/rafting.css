@@ -88,7 +88,6 @@ nav, p, section, article{
     margin: 15px;
     padding: 5px;
 }
-s
 .socialmedia img{
     width: 1.5em;
     height: auto;
@@ -115,7 +114,7 @@ s
     font-size: 17px;
     color: #000;
 }
-h1{
+.hero h1{
     top: 10px;
     width: 100%;
     padding: 15px;
@@ -205,7 +204,7 @@ footer p{
 .cont3 iframe{
     width: 450px;
     height: 100%;
-
+    /* width="600" height="450" style="border:0;" */
 }
 form {
     display: grid;
